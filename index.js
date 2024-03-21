@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 require('dotenv').config();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 const StudentRouter = require('./Routers/StudentRouter');
 const TeacherRouter = require('./Routers/TeacherRouter');
 const BusRouter=require('./Routers/BusRouter');
